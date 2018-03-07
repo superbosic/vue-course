@@ -1,4 +1,5 @@
 import { configure } from '@storybook/vue';
+import '@storybook/addon-console';
 import Vue from 'vue';
 
 function loadStories() {
