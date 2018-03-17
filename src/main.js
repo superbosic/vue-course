@@ -4,9 +4,11 @@ import Vue from 'vue';
 import router from './router';
 import App from './components/App';
 import Autocomplete from './components/Autocomplete';
+import CryptoCurrencyWidget from './components/CryptoCurrencyWidget';
 
 Vue.component(App.name, App);
 Vue.component(Autocomplete.name, Autocomplete);
+Vue.component(CryptoCurrencyWidget.name, CryptoCurrencyWidget);
 
 Vue.config.productionTip = false;
 
