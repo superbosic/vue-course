@@ -5,12 +5,10 @@ import router from './router';
 import App from './components/App';
 import Autocomplete from './components/Autocomplete';
 import CryptoCurrencyWidget from './components/CryptoCurrencyWidget';
-import PulseLoader from 'vue-spinner/src/PulseLoader.vue';
 
 Vue.component(App.name, App);
 Vue.component(Autocomplete.name, Autocomplete);
 Vue.component(CryptoCurrencyWidget.name, CryptoCurrencyWidget);
-Vue.component('pulse-loader', PulseLoader);
 
 Vue.config.productionTip = false;
 

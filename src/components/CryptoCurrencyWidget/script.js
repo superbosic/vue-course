@@ -2,6 +2,7 @@ import Vue from 'vue';
 import component from 'vue-class-component';
 import CryptoCurrencyWidgetDigital from './CryptoCurrencyWidgetDigital/index.vue';
 import CryptoCurrencyWidgetChart from './CryptoCurrencyWidgetChart/index.vue';
+import PulseLoader from 'vue-spinner/src/PulseLoader.vue';
 
 class CryptoCurrencyWidget extends Vue {
   name = 'crypto-currency-widget';
@@ -65,6 +66,7 @@ export default component({
   },
   components: {
     CryptoCurrencyWidgetDigital,
-    CryptoCurrencyWidgetChart
+    CryptoCurrencyWidgetChart,
+    PulseLoader
   }
 })(CryptoCurrencyWidget)
