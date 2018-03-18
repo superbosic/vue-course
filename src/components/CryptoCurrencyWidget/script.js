@@ -14,6 +14,10 @@ class CryptoCurrencyWidget extends Vue {
   totalIsIncreased = true;
   priceIsIncreased = true;
 
+  get loading () {
+    return this.firstPrice === -1;
+  }
+
   created () {
     this.endpoint.subscribe(this.coin, this.onMessage);
   }
